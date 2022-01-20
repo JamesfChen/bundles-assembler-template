@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.jamesfchen:lifecycle-api:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5095ad86c99802eee2899ef6970f2dfb/transformed/jetified-lifecycle-api-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f52460aae6466cf7a7bfc1c09d1f3af4/transformed/jetified-lifecycle-api-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f52460aae6466cf7a7bfc1c09d1f3af4/transformed/jetified-lifecycle-api-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f52460aae6466cf7a7bfc1c09d1f3af4/transformed/jetified-lifecycle-api-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

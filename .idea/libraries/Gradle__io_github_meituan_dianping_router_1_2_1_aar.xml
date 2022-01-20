@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.meituan-dianping:router:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2fb97e4960accb23d3cfa5b584d80aa7/transformed/jetified-router-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fb97e4960accb23d3cfa5b584d80aa7/transformed/jetified-router-1.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fb97e4960accb23d3cfa5b584d80aa7/transformed/jetified-router-1.2.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.meituan-dianping/router/1.2.1/ea3bc00ce1ec9650268618c62a1e112b1e274635/router-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

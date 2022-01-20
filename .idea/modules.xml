@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundles-assembler-template.iml" filepath="$PROJECT_DIR$/.idea/modules/bundles-assembler-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle1/bundles-assembler-template.bundle1.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle1/bundles-assembler-template.bundle1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle2/bundles-assembler-template.bundle2.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle2/bundles-assembler-template.bundle2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/export/bundles-assembler-template.export.iml" filepath="$PROJECT_DIR$/.idea/modules/export/bundles-assembler-template.export.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/bundles-assembler-template.framework.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/bundles-assembler-template.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/loader/bundles-assembler-template.framework.loader.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/loader/bundles-assembler-template.framework.loader.iml" />
+    </modules>
+  </component>
+</project>
