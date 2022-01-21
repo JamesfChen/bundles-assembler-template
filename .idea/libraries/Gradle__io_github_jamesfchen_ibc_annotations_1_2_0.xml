@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jamesfchen/ibc-annotations/1.2.0/5a97cbee3dc463bed1283687c40658c2d7050141/ibc-annotations-1.2.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jamesfchen/ibc-annotations/1.2.0/d87ed92355152b5a80879df4552e52afd3592bf1/ibc-annotations-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jamesfchen/ibc-annotations/1.2.0/df3cc8935837610bf262df21928fe85003b7dd13/ibc-annotations-1.2.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

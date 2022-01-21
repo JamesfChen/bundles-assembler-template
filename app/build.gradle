@@ -1,4 +1,6 @@
-apply plugin:'io.github.jamesfchen.app-plugin'
+plugins {
+    id 'io.github.jamesfchen.app-plugin'
+}
 android {
     defaultConfig {
         resValue "string", "app_name", "b.app"

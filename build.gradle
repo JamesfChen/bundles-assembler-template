@@ -8,7 +8,7 @@ buildscript {
         maven { url 'https://s01.oss.sonatype.org/content/repositories/public/' }
         maven { url 'https://maven.aliyun.com/repository/google/' }
         maven { url 'https://maven.aliyun.com/repository/releases' }
-        maven { url 'https://plugins.gradle.org/m2/' }
+        gradlePluginPortal()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.1"
@@ -18,29 +18,15 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
-        //没有配置classpath会去includeBuild项目找
-        classpath "io.github.jamesfchen:lifecycle-plugin:1.0.0"
-        classpath "io.github.jamesfchen:ibc-plugin:1.2.0"
-        classpath "io.github.jamesfchen:module-publisher-plugin:1.1.4"
-        classpath "io.github.jamesfchen:module-chef-plugin:1.1.0"
-        classpath "io.github.jamesfchen:app-plugin:1.1.0"
-        classpath "io.github.jamesfchen:bundle-plugin:1.1.0"
-        classpath "io.github.jamesfchen:foundation-plugin:1.1.0"
-        classpath "io.github.jamesfchen:api-plugin:1.1.0"
     }
 }
-apply plugin: "io.github.jamesfchen.module-chef-plugin"
+plugins {
+    id("io.github.jamesfchen.lifecycle-plugin") version "1.0.1"
+    id("io.github.jamesfchen.ibc-plugin") version "1.3.0"
+    id "io.github.jamesfchen.module-publisher-plugin" version "1.2.0" apply(false)
+    id "io.github.jamesfchen.module-chef-plugin" version "1.3.0"
+}
 allprojects {
-    repositories {
-        maven { url uri("$rootDir/repo") }
-        mavenLocal()
-        mavenCentral()
-        google()
-        maven { url 'https://s01.oss.sonatype.org/content/repositories/public/' }
-        maven { url 'https://maven.aliyun.com/repository/google/' }
-        maven { url 'https://maven.aliyun.com/repository/releases' }
-        maven { url 'https://plugins.gradle.org/m2/' }
-    }
     configurations.all {
         // don't cache changing modules at all，check for updates every build
         //一般在开发模式下，我们可以频繁的发布SNAPSHOT版本，

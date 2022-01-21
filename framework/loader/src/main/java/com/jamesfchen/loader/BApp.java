@@ -5,6 +5,7 @@ import androidx.multidex.MultiDexApplication;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.alibaba.android.arouter.utils.TextUtils;
+import com.jamesfchen.ibc.IBCInitializer;
 import com.jamesfchen.lifecycle.App;
 
 import java.io.BufferedReader;
@@ -37,7 +38,8 @@ public class BApp extends MultiDexApplication {
             ARouter.openLog();     // Print log
             ARouter.openDebug();   // Turn on debugging mode (If you are running in InstantRun mode, you must turn on debug mode! Online version needs to be closed, otherwise there is a security risk)
         }
-        ARouter.init(this);
+//        ARouter.init(this);
+        IBCInitializer.init(this);
 //        ProcessLifecycleOwner.get().getLifecycle().addObserver(new AppLifecycleObserver());
     }
 

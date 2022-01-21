@@ -1,9 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: io.github.jamesfchen:ibc-api:1.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/741f8f091e59f684b30d8c18b992c5da/transformed/jetified-ibc-api-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/741f8f091e59f684b30d8c18b992c5da/transformed/jetified-ibc-api-1.2.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/741f8f091e59f684b30d8c18b992c5da/transformed/jetified-ibc-api-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d03446eb21cedb78fda38c656c730165/transformed/jetified-ibc-api-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ac8180a51716e1caaec5921bf6af67e2/transformed/jetified-ibc-api-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32fab00936667f768f50ed6c34ff8fc3/transformed/jetified-ibc-api-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7931d625a77f378e234659223db23c10/transformed/jetified-ibc-api-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0fb731711decf79108d8f006c2b45960/transformed/jetified-ibc-api-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fb731711decf79108d8f006c2b45960/transformed/jetified-ibc-api-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fb731711decf79108d8f006c2b45960/transformed/jetified-ibc-api-1.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

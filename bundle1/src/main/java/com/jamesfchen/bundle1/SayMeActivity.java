@@ -8,12 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.TextView;
+import android.widget.Toast;
 
-import com.google.firebase.perf.metrics.AddTrace;
+import com.jamesfchen.export.ICall;
+import com.jamesfchen.ibc.cbpc.IBCCbpc;
 import com.jamesfchen.ibc.router.IBCRouter;
-
-import java.net.URI;
 
 /**
  * Copyright ® $ 2017
@@ -24,7 +23,6 @@ import java.net.URI;
  */
 //@Route(path = "/bundle1/sayme")
 public class SayMeActivity extends Activity {
-    @AddTrace(name = "SayMeActivity_onCreate", enabled = true /* optional */)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +47,12 @@ public class SayMeActivity extends Activity {
 //                            .navigation();
 //                IBCRouter.go(SayMeActivity.this,"bundle2router","sayhi");
 //                IBCRouter.openUri(SayMeActivity.this, URI.create("reactnative://bundle1SchemaRouter/bundle2"));
-                IBCRouter.openUri(SayMeActivity.this, URI.create("webapp://webcontainerrouter/bundle3?url=file:///android_asset/AApp.html"));
+                ICall api = IBCCbpc.findApi(ICall.class);
+                boolean ret =  api.call();
+                Toast.makeText(SayMeActivity.this,"ICall call ret:"+ret,Toast.LENGTH_LONG).show();
+                if (ret) {
+                    IBCRouter.go(SayMeActivity.this,"bundle2router","sayhi");
+                }
 //
             }
         });

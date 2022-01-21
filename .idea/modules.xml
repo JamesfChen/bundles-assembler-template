@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundles-assembler-template.iml" filepath="$PROJECT_DIR$/.idea/modules/bundles-assembler-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/bundles-assembler-template.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/bundles-assembler-template.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle1/bundles-assembler-template.bundle1.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle1/bundles-assembler-template.bundle1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle2/bundles-assembler-template.bundle2.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle2/bundles-assembler-template.bundle2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/export/bundles-assembler-template.export.iml" filepath="$PROJECT_DIR$/.idea/modules/export/bundles-assembler-template.export.iml" />
